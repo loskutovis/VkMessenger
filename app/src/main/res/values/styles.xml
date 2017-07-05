@@ -1,11 +1,30 @@
 <resources>
-
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+    <style name="MainStyle" parent="Base.Theme.AppCompat">
+        <item name="android:windowNoTitle">true</item>
     </style>
-
+    <style name="Input">
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Input.EditText">
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:background">@color/vk_white</item>
+        <item name="android:textColor">@color/vk_black</item>
+        <item name="android:textColorHint">@color/vk_black</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+    <style name="Input.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:textColor">@color/vk_white</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+    <style name="Input.Image">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
 </resources>
